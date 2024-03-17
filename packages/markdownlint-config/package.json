@@ -1,0 +1,24 @@
+{
+  "name": "fe-markdownlint-config",
+  "version": "0.0.0",
+  "description": "文档规范",
+  "keywords": [
+    "markdown",
+    "lint"
+  ],
+  "author": "wangding <1262935861@qq.com>",
+  "homepage": "https://github.com/wangding1/fe-spec#readme",
+  "license": "ISC",
+  "main": "index,json",
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangding1/fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangding1/fe-spec/issues"
+  },
+  "peerDependencies": {
+    "markdownlint":"^0.28.1"
+  }
+}
