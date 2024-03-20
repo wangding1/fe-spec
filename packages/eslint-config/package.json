@@ -1,6 +1,6 @@
 {
   "name": "wd-fe-eslint-config",
-  "version": "1.0.8",
+  "version": "0.0.2",
   "main": "index.js",
   "description": "JavaScript TypeScript Node 规范",
   "keywords": [
