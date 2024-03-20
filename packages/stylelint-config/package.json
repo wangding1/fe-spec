@@ -1,0 +1,37 @@
+{
+  "name": "wd-fe-stylelint-config",
+  "version": "0.0.1",
+  "description": "CSS 规范",
+  "author": "wangding <1262935861@qq.com>",
+  "homepage": "https://github.com/wangding1/fe-spec#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "keywords": [
+    "style",
+    "lint"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "postcss-less": "6.0.0",
+    "stylelint": "^14.3.0",
+    "stylelint-scss": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangding1/fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangding1/fe-spec/issues"
+  },
+  "dependencies": {
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.9"
+  }
+}
