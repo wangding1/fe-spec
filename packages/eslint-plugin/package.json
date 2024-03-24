@@ -1,0 +1,37 @@
+{
+  "name": "wd-fe-eslint-plugin",
+  "version": "0.0.2",
+  "description": "自定义eslint插件",
+  "author": "wangding <1262935861@qq.com>",
+  "homepage": "https://github.com/wangding1/fe-spec#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "npm run test"
+  },
+  "files": [
+    "configs/",
+    "rules/",
+    "REACME.md"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangding1/fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangding1/fe-spec/issues"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "require-all": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "jest": "^26.6.3"
+  }
+}
